@@ -1,1 +1,1 @@
-./build/
+.\build\Debug\lab1
