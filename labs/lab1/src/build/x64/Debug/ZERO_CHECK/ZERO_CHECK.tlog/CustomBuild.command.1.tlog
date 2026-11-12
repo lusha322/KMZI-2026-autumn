@@ -1,0 +1,10 @@
+^C:\USERS\KATH\DOCUMENTS\3 КУРС\КМЗИ\KMZI-2026-AUTUMN\LABS\LAB1\SRC\BUILD\CMAKEFILES\CA52EAD61D5B9236F52E752246B57323\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src" "-BC:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build/lab1.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

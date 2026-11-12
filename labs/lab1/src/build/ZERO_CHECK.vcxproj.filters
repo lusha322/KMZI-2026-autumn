@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kath\Documents\3 курс\КМЗИ\KMZI-2026-autumn\labs\lab1\src\build\CMakeFiles\ca52ead61d5b9236f52e752246b57323\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FB25FFE8-CB83-3BCC-8880-2453AA591460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

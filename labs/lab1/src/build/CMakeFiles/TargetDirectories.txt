@@ -1,0 +1,3 @@
+C:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build/CMakeFiles/lab1.dir
+C:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build/CMakeFiles/ZERO_CHECK.dir

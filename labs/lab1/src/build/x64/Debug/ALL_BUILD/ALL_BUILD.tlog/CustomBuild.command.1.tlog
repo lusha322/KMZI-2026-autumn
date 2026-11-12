@@ -1,0 +1,10 @@
+^C:\USERS\KATH\DOCUMENTS\3 КУРС\КМЗИ\KMZI-2026-AUTUMN\LABS\LAB1\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src" "-BC:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build" --check-stamp-file "C:/Users/kath/Documents/3 курс/КМЗИ/KMZI-2026-autumn/labs/lab1/src/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
